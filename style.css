@@ -1,0 +1,81 @@
+body {
+  background: url(https://miro.medium.com/max/1400/1*HLGtY6O2vUHqIyEbWdmBgA.jpeg)
+    fixed center;
+  background-size: cover;
+  background-position: center;
+  max-width: width auto;
+  padding-top: 0px;
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+header {
+  padding: 0mm;
+
+  margin: 10px 0px;
+}
+#main_title {
+  text-align: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: black;
+  background-color: lightgray;
+  border-radius: 25px;
+  margin: 0% 5%;
+  font-size: 2em;
+  padding: 25px;
+  max-width: auto;
+}
+p,
+#description,
+label {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#description {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  margin: 0% 10%;
+  background-color: #2aabe4;
+  padding: 5%;
+  max-width: 500px;
+  border: lawngreen solid 5px;
+  border-radius: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+}
+#name,
+#email,
+#age,
+#phone_number,
+#education_level,
+#motivation {
+  border: #666b6e 1px solid;
+  border-radius: 10px;
+  box-shadow: #666b6e 2px;
+}
+#submit {
+  background-color: silver;
+  color: #03597e;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 1em;
+}
+input {
+  padding: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  text-align: right;
+  font-size: 0.7em;
+  margin-right: 0px;
+  padding: 5%;
+}

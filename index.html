@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="main_title">FreeCodeCamp Survey Form</h1>
+    </header>
+    <!-- title -->
+
+    <main>
+      <p id="description">
+        Thanks for taking the time and help us emprove our service
+      </p>
+      <!-- survey -->
+      <form action="/survey.php" method="GET">
+        <!-- name -->
+
+        <label for="Name">Name</label><br />
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter your full name"
+          required
+        />
+        <br />
+        <br />
+
+        <!-- email -->
+
+        <label for="email">Email</label><br />
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
+        <br /><br />
+
+        <!-- age -->
+
+        <label for="age">Age</label><br />
+        <input
+          type="number"
+          id="age"
+          required
+          placeholder="Your age"
+          min="5"
+          max="110"
+        />
+        <br /><br />
+
+        <!-- phone number -->
+
+        <label for="phone_number">Phone number</label>
+        <br />
+        <input type="text" id="phone_number" placeholder="+111 2222 2222 157" />
+
+        <!-- eduction level -->
+
+        <br /><br />
+        <p id="dropdown">what's your eductional level?</p>
+        <select name="education_level" id="education_level">
+          <option value="primary_school">Primary School</option>
+          <option value="middle_school">Middle School</option>
+          <option value="high_school">High School</option>
+          <option value="University">University</option>
+        </select>
+        <br /><br />
+
+        <!-- languages to learn -->
+
+        <p id="languages">
+          Which programming language(s) do you want to learn? <br /><br /><input
+            type="checkbox"
+            name="Java_script"
+            id="Java_script"
+            checked
+          />
+          <label for="Java_script">Java Script</label>
+
+          <br /><input type="checkbox" name="Python" id="Python" />
+          <label for="Python">Python</label>
+          <br /><input type="checkbox" name="Java" id="Java" />
+          <label for="Java">Java</label>
+
+          <br /><input type="checkbox" name="C++" id="C++" />
+          <label for="C++">C++</label>
+
+          <br /><input type="checkbox" name="Ruby" id="Ruby" />
+          <label for="Ruby">Ruby</label>
+          <br />
+          <input type="checkbox" id="C_language" />
+
+          <label for="C_language">C language</label>
+
+          <!-- motivation -->
+          <br />
+        </p>
+
+        <p>
+          Tell us a bit about your motivation to learn web developpement
+        </p>
+
+        <textarea
+          name="motivation"
+          id="motivation"
+          cols="30"
+          rows="10"
+          placeholder="Tell us your story"
+        ></textarea
+        ><br />
+        <button id="submit"><strong>Submit</strong></button>
+      </form>
+    </main>
+    <footer>Bedoui_Codes&copy;2020</footer>
+  </body>
+</html>
